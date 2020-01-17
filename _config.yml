@@ -1,35 +1,42 @@
-title: Hello, world! I'm David Freeman
+title: Hello, world! I'm Ouassim Bara
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bwassim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+author: Ouassim Bara # add your name
+author-img: myphoto.jpg # add your photo
+about-author: I am a researcher in automatic control and artificial Intelligence. # add description
+location: Sophia-Antipolis, France
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-github: bwassim # add your Github handle
+social-linkedin: /ouassim-bara/# add your Linkedin handle
+social-email: bwassim23@gmail.com # add your Email address
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier:  # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
 paginate: 8
 paginate_path: "/page/:num"
